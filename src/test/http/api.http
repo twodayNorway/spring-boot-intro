@@ -1,0 +1,20 @@
+### Get all posts
+GET http://127.0.0.1:8080/api/posts/v1
+Accept: application/json
+
+### Get a single post
+GET http://127.0.0.1:8080/api/posts/v1/2
+Accept: application/json
+
+<> 2025-06-10T131613.500.json
+
+### Create new post
+POST http://127.0.0.1:8080/api/posts/v1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "New Post",
+  "content": "This is a new post.",
+  "author": "Alice"
+}
