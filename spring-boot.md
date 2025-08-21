@@ -5,12 +5,14 @@
 Spring Boot er et populært rammeverk i Java-verdenen som forenkler opprettelsen av standalone, 
 production-grade applikasjoner. Det bygger på Spring-rammeverket, men eliminerer mye av 
 konfigurasjonen som tradisjonelt har vært nødvendig.
+![spring-projects](spring-projects.png)
 
 Spring Boot utnytter "convention over configuration" prinsippet gjennom auto-konfigurering. 
 Dette betyr at rammeverket gjør kvalifiserte gjetninger om hvilke komponenter som trengs basert 
 på avhengigheter som er lagt til i prosjektet. For eksempel, når vi legger til `spring-boot-starter-web` 
 i pom.xml, vet Spring Boot at vi ønsker å lage en webtjeneste og konfigurerer automatisk en embedded 
 Tomcat-server og andre nødvendige komponenter.
+![spring-framework-runtime](spring-framework-runtime.png)
 
 `@SpringBootApplication` annotasjonen kombinerer tre viktige annotasjoner:
 - `@Configuration`: Markerer klassen som en konfigurasjonskilde
