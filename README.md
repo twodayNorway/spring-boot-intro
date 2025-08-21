@@ -2,9 +2,9 @@
 
 ## Kursinnhold
 
-- [Maven og prosjektoppsett](maven.md)
-- [Spring Boot REST-tjenester](spring-boot.md)
-- [API-design og HTTP](api.md)
+- [Maven og prosjektoppsett](docs/maven.md)
+- [Spring Boot REST-tjenester](docs/spring-boot.md)
+- [API-design og HTTP](docs/api.md)
  
 ## Forutsetninger
 ### IntelliJ
